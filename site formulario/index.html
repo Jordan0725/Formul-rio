@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<center>
+<body>
+    <main>
+        <div class="header">
+            <H1>Formulário rápido</H1>
+            <p>Preencha as informações para avançar!</p>
+        </div>
+        <div class="inputs">
+            <div >
+                <label>User</label>
+                <input id="User" type="text" placeholder="Digite aqui...">
+            </div>
+            <div>
+                <label>Password</label>
+                <input id="Password" type="password" placeholder="Digite aqui...">
+            </div>
+            <div>
+                <label>Cidade</label>
+                <input id="Cidade" type="text" placeholder="Digite aqui...">
+            </div>
+            <div class="espace">
+                <label>Endereço</label>
+                <input id="Endereco" type="text" placeholder="Digite aqui...">
+            </div>
+        </div>
+        <div class="radio">
+            <h4>Gênero:</h4>
+            <label>Masculino</label>
+            <input type="radio" name='genero' value="Masculino" id="Masculino">
+
+            <label>Feminino</label>
+            <input type="radio" name='genero' value="Feminino" id="Feminino">
+
+            <label>Outro</label>
+            <input type="radio" name='genero' value="Outro" id="Outro">
+        </div>
+        <div name="aceito" class="termos">
+            <label>Li e concordo com os <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">termos de serviço</a></label>
+            <input type="checkbox">
+        </div>
+        <button id="enviar" class="BrilhoRgb" type="button" onclick="enviar()">Enviar</button>
+    </main>
+    <script src="file.js"></script>
+</body>
+</center>
+</html>
